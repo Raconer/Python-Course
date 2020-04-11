@@ -1,9 +1,3 @@
-def minus(a, b):
-  return a - b
+from calculator import plus, minus
 
-def say_hello(name, age):
- # return f"Hello {name} you are {age} years old"
- return "Hello "+ name + " you are " + age + " years old"
-
-hello = say_hello("nico", "12")
-print(hello)
+print(plus(1, 2), minus(1, 2))
